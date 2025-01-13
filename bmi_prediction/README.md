@@ -1,4 +1,5 @@
 # 체성분을 이용한 비만도 예측
+![20221115501525](https://github.com/user-attachments/assets/71b8716f-e465-4b3c-96d7-e51f0374cdff)
 
 </br>
 </br>
