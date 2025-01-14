@@ -5,7 +5,7 @@
 </br>
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Data](#Data)
 2. [EDA](#eda)
 3. [Modeling](#modeling)
 4. [Results](#results)
