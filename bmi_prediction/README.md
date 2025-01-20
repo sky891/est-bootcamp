@@ -88,3 +88,26 @@
 </br>
 </br>
 </br>
+
+## Usage
+
+### Setting Korean Font (한글 폰트 설정)
+Matplotlib에서 한글 폰트를 정상적으로 출력하기 위해 운영체제(OS)별로 폰트를 설정해야 합니다.
+</br>
+</br>
+</br>
+
+
+### model_evaluation.py
+
+- **Mac 사용자의 경우**:
+  ```python
+  import matplotlib as mpl
+  mpl.rcParams['font.family'] = 'AppleGothic'
+</br> 
+
+- **Window 사용자의 경우**:
+  ```python
+  import matplotlib as mpl
+  mpl.rcParams['font.family'] = 'Malgun Gothic'
+</br> 
