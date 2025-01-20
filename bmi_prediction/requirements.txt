@@ -1,0 +1,12 @@
+catboost
+lightgbm
+matplotlib
+numpy
+optuna
+pandas
+scikeras
+seaborn
+scikit-learn==1.3.2  # 또는 1.2.2
+statsmodels
+tensorflow
+xgboostㅔ
