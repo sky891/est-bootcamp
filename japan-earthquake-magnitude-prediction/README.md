@@ -42,15 +42,6 @@
 </br>
 </br>
 
-## 🛠️ 실행 방법
-```bash
-pip install -r requirements.txt  # 1. 라이브러리 설치
-pytohn data_preprocessing.py     # 2. 데이터 전처리
-python train.py                  # 3. 전처리된 데이터로 모델 학습 및 평가 실행
-```
-</br>
-</br>
-
 ## 🔬 모델링 과정
 ### 1️⃣ 데이터 전처리 (`preprocessing.py`)
 - 결측치 처리 및 이상치 제거
@@ -68,6 +59,15 @@ python train.py                  # 3. 전처리된 데이터로 모델 학습 �
 - Transformer: 장기적 패턴 학습 최적화
 - T-LSTM: 시간 간격 변화를 반영하는 특수 모델
 - 베이지안 최적화 (Bayesian Optimization) 활용하여 하이퍼파라미터 튜닝
+</br>
+</br>
+
+## 🛠️ 실행 방법
+```bash
+pip install -r requirements.txt  # 1. 라이브러리 설치
+pytohn data_preprocessing.py     # 2. 데이터 전처리
+python train.py                  # 3. 전처리된 데이터로 모델 학습 및 평가 실행
+```
 </br>
 </br>
 
