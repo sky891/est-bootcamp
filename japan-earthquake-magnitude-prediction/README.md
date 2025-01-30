@@ -23,22 +23,22 @@
 ## 🏗️ 프로젝트 구조
 ```
 /project
-│── main.py                 # 실행 스크립트
+│── main.py                  # 실행 스크립트
 │── preprocessing.py         # 데이터 전처리 및 로딩
-│── model_training.py        # 모델 정의 및 학습
-│── evaluation.py            # 모델 평가
-│── config.py                # 설정값 저장
+│── train.py                 # 모델 정의 및 학습 평가
 │── requirements.txt         # 필요한 라이브러리 목록
 │── models/                  # 학습된 모델 저장 디렉토리
-│── datasets/                # 데이터 저장 디렉토리
-│── logs/                    # 로그 저장 디렉토리
-│── notebooks/               # 원본 Jupyter Notebook 저장
+    │── rnn_model.py
+    │── t_lstm_time_decay.py
+    │── t_lstm_time_interval.py
+    │── transformer_model.py
 ```
 
 ## 🛠️ 실행 방법
 ```bash
-pip install -r requirements.txt
-python main.py
+pip install -r requirements.txt  # 1. 라이브러리 설치
+pytohn data_preprocessing.py     # 2. 데이터 전처리
+python train.py                  # 3. 전처리된 데이터로 모델 학습 및 평가 실행
 ```
 
 ## 🔬 모델링 과정
