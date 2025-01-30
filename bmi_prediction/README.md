@@ -55,24 +55,19 @@
 - 다양한 비만도 관련 지표 추가 분석 가능 (예: 허리둘레, 복부지방률 등)
 </br>
 
-### 프로젝트 구조
+### 프로젝트 폴더 구조
 ```bash
 bmi_prediction/
-├── data/                   # 데이터 파일 저장 디렉토리
-│   ├── raw/                # 원본 데이터
-│   └── processed/          # 전처리된 데이터
-├── notebooks/              # Jupyter 노트북 파일
-│   ├── EDA.ipynb           # 탐색적 데이터 분석
-│   └── Modeling.ipynb      # 모델링 및 평가
-├── src/                    # 소스 코드 디렉토리
-│   ├── __init__.py         # 패키지 초기화 파일
-│   ├── data_preprocessing.py  # 데이터 전처리 스크립트
-│   ├── train.py            # 모델 학습 스크립트
-│   └── evaluate.py         # 모델 평가 스크립트
-├── models/                 # 저장된 모델 파일
-│   └── model.pkl           # 학습된 모델 객체
-├── requirements.txt        # 프로젝트 의존성 목록
-└── README.md               # 프로젝트 설명 문서
+├── data/
+│   ├── inbody_dataset.csv    # 인바디 데이터셋 (비만도 예측용)
+├── data_processing.py        # 데이터 전처리 관련 코드
+├── feature_engineering.py    # 특성 공학 (Feature Engineering) 코드
+├── global_variables.py       # 프로젝트 내 전역 변수 설정 파일
+├── main.py                   # 메인 실행 파일 (전체 파이프라인 실행)
+├── model_evaluation.py       # 모델 평가 스크립트
+├── model_training.py         # 모델 학습 스크립트
+├── requirements.txt          # 프로젝트 실행을 위한 패키지 목록
+└── README.md                 # 프로젝트 설명 및 실행 방법 안내
 ```
 </br>
 
